@@ -41,6 +41,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
       // Habilitar nuevamente el botón
       spinButton.disabled = false;
-    }, 5000); // 9 segundos
+    }, 8000); // 9 segundos
   });
 });
