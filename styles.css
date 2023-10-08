@@ -7,21 +7,12 @@ body{
 	padding:0;
 	background-color: #34495e;
 	display:flex;
-	flex-direction: column;
 	align-items:center;
 	justify-content: center;
 	height:100vh;
 	overflow:hidden;
 }
-.arrow-container{
-	margin: 1rem 0;
-}
-.arrow-container img{
-	width: 5rem;
-	height: 5rem;
-	transform: rotate(90deg);
-	filter: invert(90%);
-}
+
 .container{
 	width:500px;
 	height:500px;
@@ -99,7 +90,7 @@ body{
 
 #spin{
 	position: absolute;
-	top: calc(50% + 3rem);
+	top:50%;
 	left:50%;
 	transform:translate(-50%,-50%);
 	z-index:10;
